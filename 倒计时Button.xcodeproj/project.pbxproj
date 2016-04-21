@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0480E5D81C3CFD9000A199B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480E5D71C3CFD9000A199B3 /* main.m */; };
+		0480E5DB1C3CFD9000A199B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480E5DA1C3CFD9000A199B3 /* AppDelegate.m */; };
+		0480E5DE1C3CFD9000A199B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480E5DD1C3CFD9000A199B3 /* ViewController.m */; };
+		0480E5E11C3CFD9000A199B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0480E5DF1C3CFD9000A199B3 /* Main.storyboard */; };
+		0480E5E31C3CFD9000A199B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0480E5E21C3CFD9000A199B3 /* Assets.xcassets */; };
+		0480E5E61C3CFD9000A199B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0480E5E41C3CFD9000A199B3 /* LaunchScreen.storyboard */; };
+		0480E5F11C3CFD9000A199B3 /* ___ButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480E5F01C3CFD9000A199B3 /* ___ButtonTests.m */; };
+		0480E5FC1C3CFD9000A199B3 /* ___ButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480E5FB1C3CFD9000A199B3 /* ___ButtonUITests.m */; };
+		0480E60B1C3CFE3900A199B3 /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480E60A1C3CFE3900A199B3 /* UIButton+countDown.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0480E5ED1C3CFD9000A199B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0480E5CB1C3CFD9000A199B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0480E5D21C3CFD9000A199B3;
+			remoteInfo = "倒计时Button";
+		};
+		0480E5F81C3CFD9000A199B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0480E5CB1C3CFD9000A199B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0480E5D21C3CFD9000A199B3;
+			remoteInfo = "倒计时Button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0480E5D31C3CFD9000A199B3 /* 倒计时Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "倒计时Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0480E5D71C3CFD9000A199B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0480E5D91C3CFD9000A199B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0480E5DA1C3CFD9000A199B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0480E5DC1C3CFD9000A199B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0480E5DD1C3CFD9000A199B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0480E5E01C3CFD9000A199B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0480E5E21C3CFD9000A199B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0480E5E51C3CFD9000A199B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0480E5E71C3CFD9000A199B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0480E5EC1C3CFD9000A199B3 /* 倒计时ButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "倒计时ButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0480E5F01C3CFD9000A199B3 /* ___ButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___ButtonTests.m"; sourceTree = "<group>"; };
+		0480E5F21C3CFD9000A199B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0480E5F71C3CFD9000A199B3 /* 倒计时ButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "倒计时ButtonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0480E5FB1C3CFD9000A199B3 /* ___ButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___ButtonUITests.m"; sourceTree = "<group>"; };
+		0480E5FD1C3CFD9000A199B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0480E6091C3CFE3900A199B3 /* UIButton+countDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+countDown.h"; sourceTree = "<group>"; };
+		0480E60A1C3CFE3900A199B3 /* UIButton+countDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+countDown.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0480E5D01C3CFD9000A199B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0480E5E91C3CFD9000A199B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0480E5F41C3CFD9000A199B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0480E5CA1C3CFD9000A199B3 = {
+			isa = PBXGroup;
+			children = (
+				0480E5D51C3CFD9000A199B3 /* 倒计时Button */,
+				0480E5EF1C3CFD9000A199B3 /* 倒计时ButtonTests */,
+				0480E5FA1C3CFD9000A199B3 /* 倒计时ButtonUITests */,
+				0480E5D41C3CFD9000A199B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0480E5D41C3CFD9000A199B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0480E5D31C3CFD9000A199B3 /* 倒计时Button.app */,
+				0480E5EC1C3CFD9000A199B3 /* 倒计时ButtonTests.xctest */,
+				0480E5F71C3CFD9000A199B3 /* 倒计时ButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0480E5D51C3CFD9000A199B3 /* 倒计时Button */ = {
+			isa = PBXGroup;
+			children = (
+				0480E5D91C3CFD9000A199B3 /* AppDelegate.h */,
+				0480E5DA1C3CFD9000A199B3 /* AppDelegate.m */,
+				0480E5DC1C3CFD9000A199B3 /* ViewController.h */,
+				0480E5DD1C3CFD9000A199B3 /* ViewController.m */,
+				0480E6091C3CFE3900A199B3 /* UIButton+countDown.h */,
+				0480E60A1C3CFE3900A199B3 /* UIButton+countDown.m */,
+				0480E5DF1C3CFD9000A199B3 /* Main.storyboard */,
+				0480E5E21C3CFD9000A199B3 /* Assets.xcassets */,
+				0480E5E41C3CFD9000A199B3 /* LaunchScreen.storyboard */,
+				0480E5E71C3CFD9000A199B3 /* Info.plist */,
+				0480E5D61C3CFD9000A199B3 /* Supporting Files */,
+			);
+			path = "倒计时Button";
+			sourceTree = "<group>";
+		};
+		0480E5D61C3CFD9000A199B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0480E5D71C3CFD9000A199B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0480E5EF1C3CFD9000A199B3 /* 倒计时ButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				0480E5F01C3CFD9000A199B3 /* ___ButtonTests.m */,
+				0480E5F21C3CFD9000A199B3 /* Info.plist */,
+			);
+			path = "倒计时ButtonTests";
+			sourceTree = "<group>";
+		};
+		0480E5FA1C3CFD9000A199B3 /* 倒计时ButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0480E5FB1C3CFD9000A199B3 /* ___ButtonUITests.m */,
+				0480E5FD1C3CFD9000A199B3 /* Info.plist */,
+			);
+			path = "倒计时ButtonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0480E5D21C3CFD9000A199B3 /* 倒计时Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0480E6001C3CFD9000A199B3 /* Build configuration list for PBXNativeTarget "倒计时Button" */;
+			buildPhases = (
+				0480E5CF1C3CFD9000A199B3 /* Sources */,
+				0480E5D01C3CFD9000A199B3 /* Frameworks */,
+				0480E5D11C3CFD9000A199B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "倒计时Button";
+			productName = "倒计时Button";
+			productReference = 0480E5D31C3CFD9000A199B3 /* 倒计时Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0480E5EB1C3CFD9000A199B3 /* 倒计时ButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0480E6031C3CFD9000A199B3 /* Build configuration list for PBXNativeTarget "倒计时ButtonTests" */;
+			buildPhases = (
+				0480E5E81C3CFD9000A199B3 /* Sources */,
+				0480E5E91C3CFD9000A199B3 /* Frameworks */,
+				0480E5EA1C3CFD9000A199B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0480E5EE1C3CFD9000A199B3 /* PBXTargetDependency */,
+			);
+			name = "倒计时ButtonTests";
+			productName = "倒计时ButtonTests";
+			productReference = 0480E5EC1C3CFD9000A199B3 /* 倒计时ButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0480E5F61C3CFD9000A199B3 /* 倒计时ButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0480E6061C3CFD9000A199B3 /* Build configuration list for PBXNativeTarget "倒计时ButtonUITests" */;
+			buildPhases = (
+				0480E5F31C3CFD9000A199B3 /* Sources */,
+				0480E5F41C3CFD9000A199B3 /* Frameworks */,
+				0480E5F51C3CFD9000A199B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0480E5F91C3CFD9000A199B3 /* PBXTargetDependency */,
+			);
+			name = "倒计时ButtonUITests";
+			productName = "倒计时ButtonUITests";
+			productReference = 0480E5F71C3CFD9000A199B3 /* 倒计时ButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0480E5CB1C3CFD9000A199B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					0480E5D21C3CFD9000A199B3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0480E5EB1C3CFD9000A199B3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0480E5D21C3CFD9000A199B3;
+					};
+					0480E5F61C3CFD9000A199B3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0480E5D21C3CFD9000A199B3;
+					};
+				};
+			};
+			buildConfigurationList = 0480E5CE1C3CFD9000A199B3 /* Build configuration list for PBXProject "倒计时Button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0480E5CA1C3CFD9000A199B3;
+			productRefGroup = 0480E5D41C3CFD9000A199B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0480E5D21C3CFD9000A199B3 /* 倒计时Button */,
+				0480E5EB1C3CFD9000A199B3 /* 倒计时ButtonTests */,
+				0480E5F61C3CFD9000A199B3 /* 倒计时ButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0480E5D11C3CFD9000A199B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0480E5E61C3CFD9000A199B3 /* LaunchScreen.storyboard in Resources */,
+				0480E5E31C3CFD9000A199B3 /* Assets.xcassets in Resources */,
+				0480E5E11C3CFD9000A199B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0480E5EA1C3CFD9000A199B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0480E5F51C3CFD9000A199B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0480E5CF1C3CFD9000A199B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0480E5DE1C3CFD9000A199B3 /* ViewController.m in Sources */,
+				0480E60B1C3CFE3900A199B3 /* UIButton+countDown.m in Sources */,
+				0480E5DB1C3CFD9000A199B3 /* AppDelegate.m in Sources */,
+				0480E5D81C3CFD9000A199B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0480E5E81C3CFD9000A199B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0480E5F11C3CFD9000A199B3 /* ___ButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0480E5F31C3CFD9000A199B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0480E5FC1C3CFD9000A199B3 /* ___ButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0480E5EE1C3CFD9000A199B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0480E5D21C3CFD9000A199B3 /* 倒计时Button */;
+			targetProxy = 0480E5ED1C3CFD9000A199B3 /* PBXContainerItemProxy */;
+		};
+		0480E5F91C3CFD9000A199B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0480E5D21C3CFD9000A199B3 /* 倒计时Button */;
+			targetProxy = 0480E5F81C3CFD9000A199B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0480E5DF1C3CFD9000A199B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0480E5E01C3CFD9000A199B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0480E5E41C3CFD9000A199B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0480E5E51C3CFD9000A199B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0480E5FE1C3CFD9000A199B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0480E5FF1C3CFD9000A199B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0480E6011C3CFD9000A199B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "倒计时Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xx.---Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0480E6021C3CFD9000A199B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "倒计时Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xx.---Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0480E6041C3CFD9000A199B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "倒计时ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xx.---ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/倒计时Button.app/倒计时Button";
+			};
+			name = Debug;
+		};
+		0480E6051C3CFD9000A199B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "倒计时ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xx.---ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/倒计时Button.app/倒计时Button";
+			};
+			name = Release;
+		};
+		0480E6071C3CFD9000A199B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "倒计时ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xx.---ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "倒计时Button";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0480E6081C3CFD9000A199B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "倒计时ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xx.---ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "倒计时Button";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0480E5CE1C3CFD9000A199B3 /* Build configuration list for PBXProject "倒计时Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0480E5FE1C3CFD9000A199B3 /* Debug */,
+				0480E5FF1C3CFD9000A199B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0480E6001C3CFD9000A199B3 /* Build configuration list for PBXNativeTarget "倒计时Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0480E6011C3CFD9000A199B3 /* Debug */,
+				0480E6021C3CFD9000A199B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0480E6031C3CFD9000A199B3 /* Build configuration list for PBXNativeTarget "倒计时ButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0480E6041C3CFD9000A199B3 /* Debug */,
+				0480E6051C3CFD9000A199B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0480E6061C3CFD9000A199B3 /* Build configuration list for PBXNativeTarget "倒计时ButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0480E6071C3CFD9000A199B3 /* Debug */,
+				0480E6081C3CFD9000A199B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0480E5CB1C3CFD9000A199B3 /* Project object */;
+}
